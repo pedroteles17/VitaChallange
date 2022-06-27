@@ -2,7 +2,7 @@
 
 Repositório com os dados e códigos para o Shiny Apps. Além disso, tembém apresenta como os ativos do portfólio de ações locais foram determinados.
 
-Os interessados em verem e testarem o produto final (o aplicativo), podem acessá-lo através do [https://pedroteles17.shinyapps.io/DesafioVita/](link).
+Os interessados em verem e testarem o produto final (o aplicativo), podem acessá-lo através do [link](https://pedroteles17.shinyapps.io/DesafioVita/).
 
 Nesse momento, apresentamos cada pasta dentro do nosso repositório.
 
