@@ -63,7 +63,7 @@ index_rf <- readRDS(file = "index_rf.rds")
 
 # fator
 fator_list <- as.list(c('multiple', 'profit', 'mom', 'size', 'value', 'vol'))
-names(fator_list) <- c('Combinação de todos', 'Lucratividade', 'Momentum', 'Tamanho', 'Valor', 'Volatilidade' )
+names(fator_list) <- c('Combinacao de todos', 'Lucratividade', 'Momentum', 'Tamanho', 'Valor', 'Volatilidade' )
 
 fator_name_plot <- c('Todos', 'Lucrat.', 'Mom.', 'Tamanho', 'Valor', 'Volat.')
 names(fator_name_plot) <-  c('multiple', 'profit', 'mom', 'size', 'value', 'vol')
@@ -83,7 +83,7 @@ names(tipo_port_list) <- c('Long Only', 'Long & Short')
 fundos <- readRDS(file = "fundos.rds")
 
 # nome_fundo
-nome_fundo_list <- c('ARX K2 Prev.', 'AZ Quest Altro', 'Oaktree Glob. Cred. USD', 'PIMCO Income Dólar', 'Quasar Latam Bonds', 'Gávea Macro', 'Kadima Prev Multimerc.', 'Kapitalo K10 Prev.', 'Kinea Prev. Atlas', 'Vinland Macro', 'AF Global Bonds', 'ARX Elbrus', 'ARX Everest', 'Trend DI')
+nome_fundo_list <- c('ARX K2 Prev.', 'AZ Quest Altro', 'Oaktree Glob. Cred. USD', 'PIMCO Income Dolar', 'Quasar Latam Bonds', 'Gavea Macro', 'Kadima Prev Multimerc.', 'Kapitalo K10 Prev.', 'Kinea Prev. Atlas', 'Vinland Macro', 'AF Global Bonds', 'ARX Elbrus', 'ARX Everest', 'Trend DI')
 names(nome_fundo_list) <- c(unique(fundos$Fundo))
 
 fundos$Fundo <- unlist(lapply(fundos$Fundo, function(x) nome_fundo_list[x]))
@@ -92,7 +92,7 @@ names(nome_fundo_list) <- nome_fundo_list
 
 # tipo_dado
 tipo_dado_list <- list('Cota', 'PL', 'capt_liq', 'Captacao', 'Resgate')
-names(tipo_dado_list) <- c('Cota', 'Patrimônio Líquido', 'Captação Líquida', 'Captação', 'Resgate')
+names(tipo_dado_list) <- c('Cota', 'Patrimonio Liquido', 'Captacao Liquida', 'Captacao', 'Resgate')
 
 # benchmark
 benchmark_list <- list('index', 'rf')

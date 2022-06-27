@@ -96,17 +96,17 @@ port_assets <- rownames(df_indic[1:15, , drop = FALSE])
 #### If you want to also add ESG, uncomment ####
 
 #df_indic <- df_indic %>%
-  mutate(assets = rownames(df_indic), .before = 1)
+#  mutate(assets = rownames(df_indic), .before = 1)
 
 #esg <- read_excel('ESG_data.xlsx', sheet = 2, na = "#N/A") %>%
-  set_names('assets', 'esg') %>%
-  mutate(assets = word(assets, 1))
+#  set_names('assets', 'esg') %>%
+#  mutate(assets = word(assets, 1))
 
 #df_indic <- merge(df_indic, esg, by = 'assets', all.x = TRUE) %>%
-  arrange(desc(statistic)) %>%
-  head(30) %>%
-  arrange(esg) %>%
-  head(15)
+#  arrange(desc(statistic)) %>%
+#  head(30) %>%
+#  arrange(esg) %>%
+#  head(15)
 
 #port_assets <- df_indic$assets
 
